@@ -119,4 +119,13 @@ img {
         display: flex;
             justify-content: center;
     }
+    .half-page {
+        max-width: 200px;
+        
+    }
+}
+@media (max-width: 994px) {
+    h1 {
+        font-size: 70px;
+    }
 }
