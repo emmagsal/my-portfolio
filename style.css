@@ -5,10 +5,19 @@
     --fourth-color: #142d4c;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
+.bg-light {
+    background-color: #142d4c !important;
+
+}
+.navbar-brand, .navbar-toggler, .nav-link {
+    color:#9fd3c7 !important;
+}
+
 
 body {
     margin-top: 100px;
     font-family: 'Montserrat', sans-serif;
+    background-color: var(--fourth-color);
 }
 
 h1 {
@@ -32,7 +41,7 @@ h2 {
 
 h3 {
     font-size: 24px;
-    color: var(--fourth-color);
+    color: var(--secondary-color);
     opacity: 0.7;
 }
 
@@ -66,23 +75,23 @@ img {
 }
 
 .contact-link {
-    background: var(--fourth-color);
+    background: var(--secondary-color);
     box-shadow: var(--box-shadow);
-    color: white;
+    color: var(--primary-color);
 }
 
 .contact-link:hover {
-    color: var(--secondary-color);
+    color: var(--fourth-color);
 }
 
 .about-link {
-    color: var(--fourth-color);
-    border: 1px solid var(--fourth-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
 }
 
 .about-link:hover {
-    color: var(--secondary-color);
-    border: 1px solid var(--secondary-color);
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
@@ -96,7 +105,7 @@ img {
 .email-link {
     display: flex;
     justify-content: center;
-    color: var(--fourth-color);
+    color: var(--primary-color);
     font-size: 28px;
     text-decoration: none;
 }
@@ -106,7 +115,7 @@ img {
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    background: var(--fourth-color);
+    background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
 }
