@@ -1,7 +1,7 @@
 :root {
-    --body-color: #faf6e9;
-    --box-color: #ece8d9;
-    --contrast-color: #fffdf6;
+    --body-color: #f0ece2;
+    --box-color: #dfd3c3;
+    --contrast-color: #c7b198;
     --font-color: #494949;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -47,6 +47,7 @@ h3 {
 }
 
 p {
+    
     border-radius: 4px;
     font-size: 18px;
     font-weight: 200;
@@ -154,7 +155,7 @@ footer .social-links a i {
     font-size: 60px;
 }
 footer .social-links a i:hover {
-    color: var(--body-color);
+    color: white;
 }
 
 @media (max-width: 994px) {
