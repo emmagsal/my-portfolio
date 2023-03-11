@@ -56,7 +56,8 @@ p {
     color: var(--font-color);
 }
 .contact-box {
-    
+    display: block;
+    margin: 0% auto;
     background-color: var(--box-color);
     max-width: 600px;
     border-radius: 50px;
