@@ -52,12 +52,14 @@ a {
 }
 p {
     font-family: 'Montserrat', sans-serif;
-    border-radius: 4px;
+    padding: 20px;
+    border-radius: 15px;
     font-size: 18px;
     font-weight: 200;
     line-height: 1.5;
     text-align: left;
     margin: 30px 0px;
+    background: var(--box-color);
     color: var(--font-color);
 }
 .contact-box {
@@ -66,6 +68,7 @@ p {
     background-color: var(--box-color);
     max-width: 600px;
     border-radius: 50px;
+    padding-bottom: 10px;
     
 }
 img {
@@ -118,7 +121,6 @@ img {
 
 
 .contact-box .email-link {
-
     display: flex;
     justify-content: center;
     color: var(--contrast-color);
@@ -143,6 +145,9 @@ img {
 
 .contact-box .email-link:hover {
     color: white;
+}
+footer {
+    margin-top: 200px;
 }
 footer .footer-box {
     background-color: var(--contrast-color)
