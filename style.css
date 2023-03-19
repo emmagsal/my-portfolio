@@ -14,20 +14,18 @@
 }
 
 
-body {
-    margin-top: 100px;
-    
-    background-color: var(--body-color);
-    background-image: url('images/footer-banner.png');
-        background-size: cover;
-        background-repeat: no-repeat;
-}
+
 .container {
     max-width: 1400px;
+    background-color: var(--body-color);
+        background-image: url('images/body.png');
+        background-size: cover;
+        background-repeat: no-repeat;
 }
 h1 {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 115px;
+    line-height: 1.5;
     font-weight: 700;
     color: var(--font-color);
 }
@@ -58,15 +56,19 @@ a {
 p {
     font-family: 'Montserrat', sans-serif;
     padding: 20px;
-    border-radius: 15px;
+    color: var(--font-color);
     font-size: 18px;
     font-weight: 200;
     line-height: 1.5;
     text-align: left;
     margin: 30px 0px;
-    background: var(--box-color);
-    color: var(--font-color);
-}
+    }
+ .bubble {
+    background-image: url('images/paragraph.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
 .contact-box {
     display: block;
     margin: 0% auto;

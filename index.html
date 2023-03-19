@@ -23,42 +23,85 @@
 </head>
 
 <body>
-    
-    <nav class="navbar navbar-expand-lg bg-light fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html" title="Homepage">Emma Salisbury</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="about.html">About Me</a>
-                    <a class="nav-link" href="contact.html">Contact Me</a>
-                    <a class="nav-link" href="work.html">My Work</a>
-                    <a class="nav-link disabled"></a>
-                </div>
-            </div>
-        </div>
-    </nav>
-    
-        
+    <div class="container">
+        <header>
             <h2>Hi, I am</h2>
             <h1>Emma Salisbury</h1>
             <h3>🇬🇧 Front-end developer, currently living in Manchester, UK</h3>
-            <div class="navigation-links">
-             <a href="contact.html" class="contact-link" title="Contact Emma">Contact me</a>
-             <a href="work.html" class="about-link" title="My Portfolio">My Work</a>
+                <div class="navigation-links">
+                    <a href="contact.html" class="contact-link" title="Contact Emma">Contact me</a>
+                    <a href="work.html" class="about-link" title="My Portfolio">My Work</a>
+                </div>
+         </header>
+         <section class="section-work">
+        <h1>Take a look at what I have been working on...</h1>
+        <div class="ps-3 pe-3 mt-5">
+            <div class="row">
+                <div class="col-md-6 mb-5">
+                    <a href="https://dapper-nougat-4cd53a.netlify.app/" title="Go to Blog" target="_blank"><img src=""
+                            alt="Picture of blog homepage" class="img-fluid" /></a>
+                    <p>I am in the process of building a blog site.</p>
+                    </div>
+                    <div class="col-md-6">
+                    <a href="https://reliable-faun-ba54f9.netlify.app/" title="Go to Weather App" target="_blank"><img src=""
+                            alt="Photo of Weather App" class="rounded img-fluid" /></a>
+                    <p>A weather forecasting app built with React</p>
+                    <div class="mb-5 mt-5"></div>
+                </div>
+                <div class="col-md-6 mb-5">
+                     <h2 class="text-start mb-3">Photography Portfolio</h2>
+                    <a href="https://precious-lokum-fa283a.netlify.app" mt-5" title="Go to Photography Website"
+                        target="_blank"><img src="images/photography.png" alt="Picture of photography website"
+                            class="img-fluid" /></a>
+                    <p></p>
+                </div>
             </div>
-    
-     <footer>
+        </div>
+        </section>
+        <section class="section-about-me">
+        <div class="ps-3 pe-3">
+            <div class="row">
+                <div class="col-md-6">
+                    
+                    <p>Over the years I have had varying hobbies and interests, but they have all centred around being
+                        creative. Since
+                        discovering coding, I have been able to embrace my love for Creativity, and constant learning. I really
+                        enjoy
+                        building websites that showcase peoples passion projects or causes that aim to help others.
+                        <br />
+                        <br />
+                        I am available for both web design and frontend development jobs.
+                    </p>
+                    
+                </div>
+                <div class="col-md-6 mb-5">
+                    <img src="images/me.jpg" alt="photo of me" class="img-fluid" />
+                </div>
+            </div>
+        
+        </div>
+        </section>
+     <section class="section-contact">
+        <div class="contact-box">
+            <h1>Contact Me</h1>
+        
+        
+            <a href="mailto:emmagsalisbury@gmail.com" title="Email Emma Salisbury" class="email-link mb-5">
+                Email Me
+            </a>
+        
+            <a href="https://www.linkedin.com/in/emma-salisbury-5907564a/" title="Emma's Linkedin" class="email-link">Visit My
+                Linkedin</a>
+        </div>
+        
+        </section>
+        <footer>
         <div class="social-links d-flex justify-content-center">
             <a href="https://www.linkedin.com/in/emma-salisbury-5907564a/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/emmagsal?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i></a>
         </div>
-    
-     </footer>
-    
+        </footer>
+    </div>
 </body>
 
 </html>
