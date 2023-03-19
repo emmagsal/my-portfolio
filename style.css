@@ -5,13 +5,7 @@
     --font-color: #494949;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-.bg-light {
-    background-color: var(--body-color) !important;
 
-}
-.navbar-brand, .navbar-toggler, .nav-link {
-    color: var(--font-color) !important;
-}
 
 
 
@@ -22,33 +16,67 @@
         background-size: cover;
         background-repeat: no-repeat;
 }
-h1 {
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('images/desktop-header.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0 50px 0;
+}
+header h1 {
     font-family: 'Shadows Into Light Two', cursive;
     font-size: 115px;
     line-height: 1.5;
     font-weight: 700;
-    color: var(--font-color);
-}
-
-h1,
-h2,
-h3 {
+    color: var(--contrast-color);
     text-align: center;
 }
 
-h2 {
+header h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
+    line-height: 1.5;
     margin-top: 0px;
     color: white;
+    text-align: center;
 }
 
-h3 {
+header h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 24px;
-    color: var(--contrast-color);
-    opacity: 0.7;
+    line-height: 1.5;
+    color: var(--font-color);
+    text-align: center;
+    
+}
+.section-work {
+    padding: 50px 0;
+}
+.section-work h1 {
+        font-family: 'Shadows Into Light Two', cursive;
+        font-size: 90px;
+        line-height: 1.5;
+        font-weight: 700;
+        color: var(--font-color);
+        text-align: center;
+        opacity: 0.5;
+}
+.section-work h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 48px;
+        line-height: 1.5;
+        margin-top: 0px;
+        color: white;
+        text-align: center;
+}
+.section-contact .contact-box h1 {
+        font-family: 'Shadows Into Light Two', cursive;
+        font-size: 90px;
+        line-height: 1.5;
+        font-weight: 700;
+        color: var(--font-color);
+        text-align: center;
+        opacity: 0.5;
 }
 a {
     font-family: 'Montserrat', sans-serif;
@@ -97,35 +125,16 @@ img {
     text-transform: capitalize;
 }
 
-.contact-link {
+.contact-link, .work-link {
     background: var(--body-color);
     box-shadow: var(--box-shadow);
     color: var(--contrast-color);
 }
 
-.contact-link:hover {
+.contact-link:hover, .work-link:hover {
     background-color: white;
     color: var(--contrast-color);
 }
-
-.about-link {
-    color: var(--contrast-color);
-    border: 1px solid var(--contrast-color);
-}
-
-.about-link:hover {
-    color: white;
-    border: 1px solid white;
-    background-color: var(--contrast-color);
-}
-
-.homepage-link {
-    color: var(--font-color);
-    text-align: center;
-    display: block;
-}
-
-
 
 .contact-box .email-link {
     display: flex;
@@ -135,7 +144,6 @@ img {
     text-decoration: none;
 
 }
-
 .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
