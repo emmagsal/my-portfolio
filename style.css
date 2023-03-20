@@ -161,10 +161,13 @@ img {
 .contact-box .email-link:hover {
     color: white;
 }
-footer {
-    background-image: url('images/footer-banner.png');
-    background-size: cover;
-    background-repeat: no-repeat;
+footer .contact-box h1 {
+    font-family: 'Shadows Into Light Two', cursive;
+        font-size: 115px;
+        line-height: 1.5;
+        font-weight: 700;
+        color: var(--contrast-color);
+        text-align: center;
     
 }
 
