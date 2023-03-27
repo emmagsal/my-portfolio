@@ -70,12 +70,13 @@ header h3 {
         opacity: 0.5;
 }
 .section-work h2 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Shadows Into Light Two', cursive;
+        letter-spacing: 2px;
         font-size: 48px;
         line-height: 1.5;
         margin-top: 0px;
         color: white;
-        text-align: center;
+        text-align: left;
 }
 .section-about-me {
     background-color: white;
@@ -203,8 +204,15 @@ footer .social-links a i:hover {
     h1 {
         font-size: 70px;
     }
-        footer .footer-box {
+    footer .footer-box {
             margin: 0px 175px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .section-work h2 {
+        text-align: center;
+    }
 }
 @media (max-width: 767px) {
     h3 {
