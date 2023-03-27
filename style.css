@@ -50,6 +50,11 @@ header h3 {
     text-align: center;
     
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
 .section-work {
     padding: 50px 0;
 }
