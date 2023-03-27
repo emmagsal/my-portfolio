@@ -15,6 +15,7 @@
         background-image: url('images/body.png');
         background-size: cover;
         background-repeat: no-repeat;
+        padding-bottom: 40px;
 }
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('images/desktop-header.jpg');
@@ -104,11 +105,7 @@ p {
     text-align: left;
     margin: 30px 0px;
     }
- .bubble {
-    background-image: url('images/paragraph.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    }
+ 
 
 .contact-box {
     display: block;
@@ -173,6 +170,12 @@ img {
 
 .contact-box .email-link:hover {
     color: white;
+}
+footer {
+    margin-top: 40px;
+}
+footer .contact-box {
+    margin-bottom: 40px;
 }
 footer .contact-box h1 {
     font-family: 'Shadows Into Light Two', cursive;
