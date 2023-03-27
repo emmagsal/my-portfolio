@@ -21,7 +21,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('images/desktop-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 70px 0 50px 0;
+    padding: 100px 0 80px 0;
 }
 header h1 {
     font-family: 'Shadows Into Light Two', cursive;
@@ -81,7 +81,7 @@ header h3 {
     background-color: white;
     opacity: 0.7;
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 50px;
 }
 .section-contact .contact-box h1, .section-about-me h1 {
         font-family: 'Shadows Into Light Two', cursive;
