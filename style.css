@@ -57,6 +57,7 @@ header h3 {
 }
 .section-work {
     padding: 50px 0;
+    
 }
 .section-work h1 {
         font-family: 'Shadows Into Light Two', cursive;
@@ -74,6 +75,12 @@ header h3 {
         margin-top: 0px;
         color: white;
         text-align: center;
+}
+.section-about-me {
+    background-color: white;
+    opacity: 0.7;
+    padding: 15px;
+    border-radius: 8px;
 }
 .section-contact .contact-box h1, .section-about-me h1 {
         font-family: 'Shadows Into Light Two', cursive;
@@ -113,7 +120,7 @@ p {
     
 }
 img {
-    border-radius: 4px;
+    border-radius: 8px;
 }
 
 .navigation-links {
