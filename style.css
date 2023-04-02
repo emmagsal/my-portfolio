@@ -201,8 +201,14 @@ footer .social-links a i:hover {
 }
 
 @media (max-width: 994px) {
-    h1 {
+    .container header h1 {
         font-size: 70px;
+    }
+    .container header h2 {
+        display: none;
+    }
+    .container header h3 {
+        font-size: 15px;
     }
     footer .footer-box {
             margin: 0px 175px;
@@ -213,14 +219,21 @@ footer .social-links a i:hover {
     .section-work h2 {
         text-align: center;
     }
+    header {
+        padding: 60px 0 20px 0;
+    }
 }
 @media (max-width: 767px) {
     h3 {
         margin-bottom: 30px;
     }
-        footer .footer-box {
+    footer .footer-box {
             margin: 0px 150px;
-}
+    }
+    .section-work h1 {
+        font-size: 45px;
+    }
+    
 }
 @media (max-width: 420px) {
     h1 {
