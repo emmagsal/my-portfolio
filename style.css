@@ -51,6 +51,11 @@ header h3 {
     text-align: center;
     
 }
+.card {
+    background-color: var(--box-color);
+    border-radius: 8px;
+    border: var(--box-color) 1px solid;
+}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -180,11 +185,10 @@ footer .contact-box {
 }
 footer .contact-box h1 {
     font-family: 'Shadows Into Light Two', cursive;
-        font-size: 115px;
+        font-size: 90px;
         line-height: 1.5;
         font-weight: 700;
-        color: var(--font-color);
-        opacity: 0.5;
+        color: white;
         text-align: center;
     
 }
@@ -225,6 +229,9 @@ footer .social-links a i:hover {
     .section-about-me .grid h1 {
         font-size: 70px;
     }
+    .section-work h1 {
+        font-size: 45px;
+         }
 }
 @media (max-width: 767px) {
     h3 {
@@ -233,9 +240,7 @@ footer .social-links a i:hover {
     footer .contact-box {
             margin: 0px 150px;
     }
-    .section-work h1 {
-        font-size: 45px;
-    }
+   
     .section-about-me .grid img {
         display: none;
     }
