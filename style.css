@@ -60,10 +60,7 @@ header h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
-}
-.section-work {
-    padding: 50px 0;
-    
+    margin-bottom: 20px;
 }
 .section-work h1 {
         font-family: 'Shadows Into Light Two', cursive;
@@ -72,14 +69,15 @@ header h3 {
         font-weight: 700;
         color: var(--font-color);
         text-align: center;
+        padding: 40px 0;
         opacity: 0.5;
 }
-.section-work h2 {
+.section-work .card h2 {
         font-family: 'Shadows Into Light Two', cursive;
         letter-spacing: 2px;
         font-size: 48px;
         line-height: 1.5;
-        margin-top: 0px;
+        padding: 0px 20px;
         color: white;
         text-align: left;
 }
@@ -103,13 +101,12 @@ a {
 }
 p {
     font-family: 'Montserrat', sans-serif;
-    padding: 20px;
     color: var(--font-color);
     font-size: 18px;
     font-weight: 200;
     line-height: 1.5;
     text-align: left;
-    margin: 30px 0px;
+    margin: 20px 20px;
     }
  
 
@@ -123,7 +120,7 @@ p {
     
 }
 img {
-    border-radius: 8px;
+    border-radius: 50px;
 }
 
 .navigation-links {
@@ -220,9 +217,10 @@ footer .social-links a i:hover {
     .grid {
         grid-template-columns: 1fr;
     }
-    .section-work h2 {
-        text-align: center;
-    }
+    .section-work .card h2 {
+            font-size: 30px;
+            text-align: center;
+        }
     header {
         padding: 60px 0 20px 0;
     }
