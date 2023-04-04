@@ -60,7 +60,7 @@ header h3 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 .section-work h1 {
         font-family: 'Shadows Into Light Two', cursive;
@@ -119,7 +119,7 @@ p {
     padding-bottom: 10px;
     
 }
-img {
+.portfolio-image {
     border-radius: 50px;
 }
 
