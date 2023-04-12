@@ -71,15 +71,20 @@ header h3 {
         font-family: 'Shadows Into Light Two', cursive;
         letter-spacing: 2px;
         font-size: 48px;
+        font-weight: 900;
         line-height: 1.5;
         padding: 0px 20px;
         color: white;
         text-align: left;
 }
 .section-about-me {
+    margin-top: 30px;
     background-color: var(--body-color);
     padding: 15px;
     border-radius: 8px;
+}
+.section-work {
+    margin-top: 30px;
 }
 .section-contact .contact-box h1, .section-about-me h1 {
         font-family: 'Shadows Into Light Two', cursive;
@@ -196,6 +201,9 @@ footer .social-links a i:hover {
 }
 
 @media (max-width: 994px) {
+    .section-about-me {
+        border: var(--box-color) 5px solid;
+    }
     .container header h1 {
         font-size: 70px;
     }
@@ -259,4 +267,7 @@ footer .social-links a i:hover {
     footer .contact-box {
         margin: 0px 0px;
     }
+    .section-work h1 {
+             font-size: 35px;
+         }
 }
