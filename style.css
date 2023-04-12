@@ -269,5 +269,6 @@ footer .social-links a i:hover {
     }
     .section-work h1 {
              font-size: 35px;
+             padding: 0 10px 0 10px;
          }
 }
