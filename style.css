@@ -21,7 +21,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url('images/desktop-header.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 100px 0 80px 0;
+    padding: 120px 0 100px 0;
 }
 header h1 {
     font-family: 'Shadows Into Light Two', cursive;
@@ -32,15 +32,7 @@ header h1 {
     text-align: center;
 }
 
-header h2 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 48px;
-    line-height: 1.5;
-    margin-top: 0px;
-    color: white;
-    text-align: center;
-    padding-top: 25px;
-}
+
 
 header h3 {
     font-family: 'Montserrat', sans-serif;
@@ -52,9 +44,10 @@ header h3 {
     
 }
 .card {
-    background-color: var(--box-color);
+    background-color: transparent;
     border-radius: 8px;
-    border: var(--box-color) 1px solid;
+    border:  0px none;
+    
 }
 .grid {
     display: grid;
@@ -82,10 +75,9 @@ header h3 {
         text-align: left;
 }
 .section-about-me {
-    background-color: white;
-    opacity: 0.7;
+    background-color: var(--body-color);
     padding: 15px;
-    border-radius: 50px;
+    border-radius: 8px;
 }
 .section-contact .contact-box h1, .section-about-me h1 {
         font-family: 'Shadows Into Light Two', cursive;
@@ -216,6 +208,9 @@ footer .social-links a i:hover {
     }
     .grid {
         grid-template-columns: 1fr;
+    }
+    .card {
+        border: var(--box-color) 5px solid;
     }
     .section-work .card h2 {
             font-size: 30px;
