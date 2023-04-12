@@ -114,7 +114,7 @@ p {
     margin: 0% auto;
     background-color: var(--box-color);
     max-width: 600px;
-    border-radius: 50px;
+    border-radius: 8px;
     padding-bottom: 10px;
     
 }
@@ -248,7 +248,7 @@ footer .social-links a i:hover {
         display: none;
     }
     footer .contact-box h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
     footer .social-links a i {
         font-size: 40px;
