@@ -60,10 +60,12 @@ header h3 {
         font-size: 90px;
         line-height: 1.5;
         font-weight: 700;
-        color: var(--font-color);
+        background-color: var(--box-color);
+        border-radius: 8px;
+        color: var(--contrast-color);
         text-align: center;
         padding: 40px 0;
-        opacity: 0.5;
+        
 }
 .section-work .card h2 {
         font-family: 'Shadows Into Light Two', cursive;
@@ -84,9 +86,9 @@ header h3 {
         font-size: 90px;
         line-height: 1.5;
         font-weight: 700;
-        color: var(--font-color);
+        color: var(--contrast-color);
         text-align: center;
-        opacity: 0.5;
+        
 }
 a {
     font-family: 'Montserrat', sans-serif;
